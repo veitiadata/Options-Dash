@@ -1,1 +1,1 @@
-$ pip freeze > requirements.txtgiit a
+$ pip freeze > requirements.txt

@@ -1,0 +1,4 @@
+ovenv
+*.pyc
+.DS_Store
+.env

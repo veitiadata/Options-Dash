@@ -19,7 +19,7 @@ from dateutil.rrule import rrule, DAILY
 import math
 from math import exp, log, sqrt
 
-server = app.server
+
 
 def black_scholes(S, K, duration, r, a, ot, time_factor,st):
     # S = Spot Price
@@ -45,6 +45,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
 
+server = app.server
 # APP MAIN LAYOUT
 # Margin Around Containers 10px
 # Margin Around between buttons 5px

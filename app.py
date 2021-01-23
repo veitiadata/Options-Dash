@@ -19,6 +19,7 @@ from dateutil.rrule import rrule, DAILY
 import math
 from math import exp, log, sqrt
 
+server = app.server
 
 def black_scholes(S, K, duration, r, a, ot, time_factor,st):
     # S = Spot Price
